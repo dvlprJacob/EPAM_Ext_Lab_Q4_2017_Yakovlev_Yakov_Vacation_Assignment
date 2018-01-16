@@ -1,0 +1,5 @@
+C:\Users\Lenovo\Desktop\Stack\Datastruct\bin\Release\Datastruct.dll
+C:\Users\Lenovo\Desktop\Stack\Datastruct\bin\Release\Datastruct.pdb
+C:\Users\Lenovo\Desktop\Stack\Datastruct\obj\Release\Datastruct.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Stack\Datastruct\obj\Release\Datastruct.dll
+C:\Users\Lenovo\Desktop\Stack\Datastruct\obj\Release\Datastruct.pdb

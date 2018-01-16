@@ -1,0 +1,5 @@
+C:\Data\Additional Task\Stack\Datastruct\bin\Debug\Datastruct.dll
+C:\Data\Additional Task\Stack\Datastruct\bin\Debug\Datastruct.pdb
+C:\Data\Additional Task\Stack\Datastruct\obj\Debug\Datastruct.csprojResolveAssemblyReference.cache
+C:\Data\Additional Task\Stack\Datastruct\obj\Debug\Datastruct.dll
+C:\Data\Additional Task\Stack\Datastruct\obj\Debug\Datastruct.pdb

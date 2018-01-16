@@ -60,15 +60,12 @@
 
             private set
             {
-                if (value > 0)
-                {
-                    this.count = value;
-                }
-
-                if (value < 0 || value >= this.Size)
+                if (value < 0 || value > this.Size)
                 {
                     throw new ArgumentOutOfRangeException(string.Format("Count new value must be more than zero and less than {0}, actually parameter equals to {1}", this.Size, value));
                 }
+
+                this.count = value;
             }
         }
 
@@ -89,22 +86,24 @@
 
         public void Pop()
         {
-            if (this.count != 0)
+            if (this.count == 0)
             {
-                this.Nodes[count] = default(TType);
-                this.count--;
+                throw new IndexOutOfRangeException("Stack doesn't have nodes");
             }
+
+            count--;
+            this.Nodes[count] = default(TType);
         }
 
         public void Push(TType newNode)
         {
-            if (this.count == this.Size - 1)
+            if (this.count == this.Size)
             {
-                throw new StackOverflowException(string.Format("Stack nodes count at the moment equals to size : {0}", this.Size);
+                throw new StackOverflowException(string.Format("Stack nodes count at the moment equals to size : {0}", this.Size));
             }
 
-            this.count++;
             this.Nodes[this.count] = newNode;
+            count++;
         }
 
         void IEnumerator.Reset()
@@ -114,7 +113,12 @@
 
         public TType Top()
         {
-            return this.Nodes[this.count];
+            if (this.count == 0)
+            {
+                throw new IndexOutOfRangeException("Stack doesn't have nodes");
+            }
+
+            return this.Nodes[this.count - 1];
         }
 
         #region IDisposable Support

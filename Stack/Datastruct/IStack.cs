@@ -8,6 +8,6 @@
 
         TType Top();
 
-        int Size { get; }
+        int Count { get; }
     }
 }

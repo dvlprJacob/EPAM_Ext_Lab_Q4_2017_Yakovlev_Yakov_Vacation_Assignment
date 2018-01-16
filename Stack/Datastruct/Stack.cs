@@ -4,7 +4,7 @@
     using System.Collections;
     using System.Collections.Generic;
 
-    public class Stack<TType> : IStack<TType>, IEnumerable<TType>, IEnumerator<TType> where TType : struct, ICloneable, IDisposable
+    public class Stack<TType> : IStack<TType>, IEnumerable<TType>, IEnumerator<TType> where TType : struct
     {
         private int count;
 
@@ -87,7 +87,7 @@
             throw new NotImplementedException();
         }
 
-        void IStack<TType>.Pop()
+        public void Pop()
         {
             if (this.count != 0)
             {
@@ -96,7 +96,7 @@
             }
         }
 
-        void IStack<TType>.Push(TType newNode)
+        public void Push(TType newNode)
         {
             if (this.count == this.Size - 1)
             {
@@ -112,7 +112,7 @@
             throw new NotImplementedException();
         }
 
-        TType IStack<TType>.Top()
+        public TType Top()
         {
             return this.Nodes[this.count];
         }

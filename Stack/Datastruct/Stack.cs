@@ -7,6 +7,7 @@
     public class Stack<TType> : IStack<TType>, IEnumerable<TType>, IEnumerator<TType> where TType : struct
     {
         private int count;
+        private int currentPosition = -1;
 
         public Stack()
         {
@@ -31,15 +32,15 @@
         {
             get
             {
-                throw new NotImplementedException();
+                return this.Current;
             }
         }
 
-        TType IEnumerator<TType>.Current
+        public TType Current
         {
             get
             {
-                throw new NotImplementedException();
+                return this.Nodes[currentPosition];
             }
         }
 
@@ -69,19 +70,31 @@
             }
         }
 
-        IEnumerator IEnumerable.GetEnumerator()
+        public IEnumerator<TType> GetEnumerator()
         {
-            throw new NotImplementedException();
-        }
-
-        IEnumerator<TType> IEnumerable<TType>.GetEnumerator()
-        {
-            throw new NotImplementedException();
+            return ((IEnumerable<TType>)this).GetEnumerator();
         }
 
         bool IEnumerator.MoveNext()
         {
-            throw new NotImplementedException();
+            if (this.currentPosition == this.count - 1)
+            {
+                this.Reset();
+                return false;
+            }
+
+            this.currentPosition++;
+            return true;
+        }
+
+        IEnumerator<TType> IEnumerable<TType>.GetEnumerator()
+        {
+            return ((IEnumerable<TType>)this.Nodes).GetEnumerator();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return ((IEnumerable)this.Nodes).GetEnumerator();
         }
 
         public void Pop()
@@ -106,9 +119,9 @@
             count++;
         }
 
-        void IEnumerator.Reset()
+        public void Reset()
         {
-            throw new NotImplementedException();
+            this.currentPosition = -1;
         }
 
         public TType Top()

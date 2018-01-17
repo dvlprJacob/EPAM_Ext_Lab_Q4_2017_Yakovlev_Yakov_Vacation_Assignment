@@ -72,7 +72,7 @@
 
         public IEnumerator<TType> GetEnumerator()
         {
-            return ((IEnumerable<TType>)this).GetEnumerator();
+            return this;
         }
 
         bool IEnumerator.MoveNext()
@@ -174,13 +174,11 @@
         public override string ToString()
         {
             string temp = string.Empty;
-            //// Replace with foreach
-            for (int i = 0; i < this.count; i++)
+            foreach (var node in this.Nodes)
             {
-                temp += string.Format("{0} ", this.Nodes[i]);
+                temp += string.Format("{0} ", node);
             }
 
-            //// for the test
             return temp.Remove(temp.Length - 1, 1);
         }
     }

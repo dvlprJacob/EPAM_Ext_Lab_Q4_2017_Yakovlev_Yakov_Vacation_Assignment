@@ -5,6 +5,5 @@ C:\Users\Lenovo\Desktop\Stack\Datastruct\obj\Release\Datastruct.dll
 C:\Users\Lenovo\Desktop\Stack\Datastruct\obj\Release\Datastruct.pdb
 C:\Data\Additional Task\Stack\Datastruct\bin\Release\Datastruct.dll
 C:\Data\Additional Task\Stack\Datastruct\bin\Release\Datastruct.pdb
-C:\Data\Additional Task\Stack\Datastruct\obj\Release\Datastruct.csprojResolveAssemblyReference.cache
 C:\Data\Additional Task\Stack\Datastruct\obj\Release\Datastruct.dll
 C:\Data\Additional Task\Stack\Datastruct\obj\Release\Datastruct.pdb

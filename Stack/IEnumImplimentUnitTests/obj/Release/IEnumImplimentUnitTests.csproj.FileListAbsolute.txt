@@ -1,9 +1,0 @@
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\bin\Release\IEnumImplimentUnitTests.dll
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\bin\Release\IEnumImplimentUnitTests.pdb
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\bin\Release\Datastruct.dll
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\bin\Release\Datastruct.pdb
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\bin\Release\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\obj\Release\IEnumImplimentUnitTests.csprojResolveAssemblyReference.cache
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\obj\Release\IEnumImplimentUnitTests.dll
-C:\Data\Additional Task\Stack\IEnumImplimentUnitTests\obj\Release\IEnumImplimentUnitTests.pdb

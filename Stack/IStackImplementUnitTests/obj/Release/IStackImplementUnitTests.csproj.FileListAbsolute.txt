@@ -1,9 +1,0 @@
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\bin\Release\IStackImplementUnitTests.dll
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\bin\Release\IStackImplementUnitTests.pdb
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\bin\Release\Datastruct.dll
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\bin\Release\Datastruct.pdb
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\bin\Release\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\obj\Release\IStackImplementUnitTests.csprojResolveAssemblyReference.cache
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\obj\Release\IStackImplementUnitTests.dll
-C:\Data\Additional Task\Stack\IStackImplementUnitTests\obj\Release\IStackImplementUnitTests.pdb
